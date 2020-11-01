@@ -3,11 +3,13 @@
 #include<string.h>
 //Global Variable Declaration
 int count = 7;
+
 //Function Declaration
 
 void userInfo();
 
 //Validator Function
+
 void validator(char user[], char pass[]){
 
 	if(strcmp(user, "admin")==0 && strcmp(pass, "pass")==0)
